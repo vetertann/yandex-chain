@@ -28,7 +28,7 @@ You can use `YandexEmbeddings` to compute embedding vectors:
 from yandex_chain import YandexEmbeddings
 
 embeddings = YandexEmbeddings(...)
-print(embeddings("How are you today?"))
+print(embeddings.embed_document("How are you today?"))
 ```
 
 ## Authentication
